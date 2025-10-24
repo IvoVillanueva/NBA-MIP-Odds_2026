@@ -46,7 +46,7 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add data/mip_odds_*.csv
-          git diff --cached --quiet || git commit -m "Auto-update: roy odds"
+          git diff --cached --quiet || git commit -m "Auto-update: mip odds"
         shell: bash
 
       - name: Push changes
