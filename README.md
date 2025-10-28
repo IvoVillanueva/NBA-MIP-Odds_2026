@@ -7,7 +7,7 @@ Los datos se almacenan en formato CSV mediante un flujo automatizado de **GitHub
 
 ## 📋 Qué hace este repositorio
 
-- Ejecuta un script en R (`mip-odds.R`) que extrae las cuotas del MIP desde RotoWire.  
+- Ejecuta un script en R (`mip-odds.R`) que extrae las cuotas del MIP desde RotoWire.
 - Añade una **marca temporal** para saber cuándo se obtuvieron los datos.  
 - Guarda los resultados como un **archivo CSV con fecha** dentro de la carpeta `data/`.  
 - Se ejecuta **a diario** y también **bajo demanda** mediante GitHub Actions.  
